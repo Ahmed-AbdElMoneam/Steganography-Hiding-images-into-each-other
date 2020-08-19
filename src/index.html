@@ -1,0 +1,12 @@
+<script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+<h1>Steganography: Hiding an image into another one with the same size.</h1>
+<h2>Please upload two images at the same size.<h2>
+  <canvas id="cv1"></canvas>
+  <canvas id="cv2"></canvas>
+  <canvas id="cv3"></canvas>
+  <p class="font">Start Image: 
+<input type="file" multiple="false" access="image/*" onchange="loadStartImage()" id="strfile"></p>
+  <p class="font">Hidden Image: 
+<input type="file" multiple="false" access="image/*" onchange="loadHiddenImage()" id="hdnfile"></p>
+  <p>
+  <input type="button" value="Hide It!" onclick="doHide()" id="btnhid"></p>

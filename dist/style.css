@@ -1,0 +1,15 @@
+body{
+  background-color: #2e2eb8;
+}
+h1{
+  font-size: 35px;
+  font-family: Georgia;
+}
+h2{
+  font-family: Courier;
+  color: #b3ff1a;
+}
+canvas{
+  width: 400px;
+  border: 2px solid lightgrey;
+}
